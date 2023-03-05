@@ -24,7 +24,7 @@ color: var(--main-text);
     font-family: 'Raleway', sans-serif;
         font-weight: 800;
         font-size: 18px;
-        line-height: 1.33;
+        line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: var(--first-logo-color)
@@ -36,10 +36,10 @@ color: var(--main-text);
 
 .menu-item {}
 
-.unmarked {
+.list {
     list-style: none;
 }
-.not-underline{
+.link {
     text-decoration: none;
 }
 
@@ -50,7 +50,7 @@ color: var(--main-text);
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        color: #2E2F42;
+        color: var(--black-color)
 }
 .menu-item-link:hover,
 .menu-link:focus,
@@ -91,7 +91,7 @@ color: var(--main-text);
 }
 
 .btn {
-    font-family: inherit;
+    font-family: inherit
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
@@ -141,7 +141,7 @@ color: var(--main-text);
         text-align: center;
         letter-spacing: 0.02em;
         text-transform: capitalize;
-        color: #2e2f42;
+        color: var(--black-color)
 }
 
 
@@ -157,7 +157,7 @@ color: var(--main-text);
         font-size: 20px;
         line-height: 1.2;
         letter-spacing: 0.02em;
-        color: #2e2f42:
+        color: var(--black-color)
 }
 /* /Teamwork */
 /* Portfolio */
@@ -180,7 +180,7 @@ color: var(--main-text);
 /* /Portfolio */
 /* Footer */
 .footer-page {
-    background: #2E2F42;
+    background: var(--black-color)
 }
 .whitecolor{
     color: var(--two-logo-color)
