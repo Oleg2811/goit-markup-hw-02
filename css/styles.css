@@ -55,10 +55,12 @@ color: var(--main-text);
 .menu-item-link:hover,
 .menu-link:focus,
 .adr-link:hover,
-.adr-link:focus{
-    color: var(--press-button);}
+.adr-link:focus {
+    color: #404bbf}
 
-.adress-page {}
+.adress-page {
+    font-style: normal
+}
 
 .address-list {}
 
