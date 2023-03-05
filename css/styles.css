@@ -48,12 +48,13 @@ color: var(--main-text);
 .menu-item-link {
     font-weight: 500;
         font-size: 16px;
+        font-style: normal
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: var(--black-color)
 }
 .menu-item-link:hover,
-.menu-link:focus,
+.menu-item-link:focus,
 .adr-link:hover,
 .adr-link:focus {
     color: #404bbf}
@@ -90,6 +91,8 @@ color: var(--main-text);
 .hero-button {
     color: #FFFFFF;
     background: #4d5ae5;;
+    font-family: "Roboto", sans-serif
+    font-weight: 500;
 }
 
 .btn {
@@ -166,6 +169,8 @@ color: var(--main-text);
 .section-buttom-page {}
 
 .buttom-page {
+    font-family: "Roboto", sans-serif
+    font-weight: 500;
     color: #4d5ae5;
     background-color:#f4f4fd;}
 .buttom-page:hover,
@@ -178,7 +183,12 @@ color: var(--main-text);
 .resume-list {}
 
 
-.par-text {}
+.par-text {
+    font-size: 16px
+    line-height: 1.5
+    letter-spacing: 0.02em;
+
+}
 /* /Portfolio */
 /* Footer */
 .footer-page {
