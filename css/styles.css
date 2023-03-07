@@ -120,6 +120,7 @@ body {
 /* .Mocup */
 /* Teamwork */
 .team-work {
+  background: #f4f4fd;
 }
 .mockup-title,
 .team-title {
@@ -146,13 +147,10 @@ body {
 }
 /* /Teamwork */
 /* Portfolio */
-.section-buttom-page {
-}
 .buttom-page {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   color: #4d5ae5;
-  background-color: #f4f4fd;
 }
 .buttom-page:hover,
 .buttom-page:focus {
